@@ -3,9 +3,6 @@ function mostrarMensajeFloral() {
     const mensajeFloral = document.getElementById("mensajeFloral");
     const imagenFloral = document.getElementById("imagenFloral");
 
-    // Configura la URL de la imagen
-    imagenFloral.src = "https://img.freepik.com/vector-gratis/ilustracion-vector-flor-acuarela-estilo-colorido_341269-945.jpg";
-
     // Muestra la imagen floral
     imagenFloral.style.display = "block";
 
@@ -21,7 +18,7 @@ function mostrarMensajeAmor() {
     const mensajeAmor = document.getElementById("mensajeAmor");
     const imagenFloral = document.getElementById("imagenFloral");
 
-    // Oculta la imagen floral si es necesario
+    // Oculta la imagen floral
     imagenFloral.style.display = "none";
 
     // Mueve el mensaje floral hacia la izquierda
